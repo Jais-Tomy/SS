@@ -1,0 +1,17 @@
+Start the program.
+Define the data segment and initialize variables, including a message to prompt the user to enter the count of numbers and an array to store the input numbers.
+Define the code segment and assume that the code and data segments are located in the CS and DS registers, respectively.
+Prompt the user to enter the count of numbers to be sorted and read the input using the INT 21H interrupt.
+Verify that the input count is valid (i.e., greater than zero) and handle any errors if necessary.
+Prompt the user to enter the numbers one by one, using a loop to read each input and store it in the array.
+Verify that each input is valid (i.e., within a specified range of values) and handle any errors if necessary.
+Perform the Bubble Sort algorithm on the array:
+a. Use nested loops to compare adjacent elements and swap them if they are out of order.
+b. Continue the comparison and swapping process until the entire array is sorted.
+c. Optimize the algorithm by exiting early if the array is already sorted.
+Verify that the output array is valid and handle any errors if necessary.
+Print out the sorted array, using another loop to iterate through the array and print each element.
+Verify that the output has been printed correctly and handle any errors if necessary.
+Provide the user with options to repeat the program or exit, using a loop to read the user's input and handle their choice.
+Verify that the user's input is valid and handle any errors if necessary.
+If the user chooses to repeat the program, return to step 4. If the user chooses to exit, end the program using an INT 21H interrupt.
